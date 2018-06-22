@@ -16,7 +16,7 @@ function create_post_type() {
     'films',
     array(
       'label' => __( 'Год' ),
-      'rewrite' => array( 'slug' => 'person' )
+      'rewrite' => array( 'slug' => 'year' )
     )
   );
 
@@ -25,7 +25,7 @@ function create_post_type() {
     'films',
     array(
       'label' => __( 'Жанры' ),
-      'rewrite' => array( 'slug' => 'person' )
+      'rewrite' => array( 'slug' => 'genres' )
     )
   );
 
@@ -34,7 +34,7 @@ function create_post_type() {
     'films',
     array(
       'label' => __( 'Страны' ),
-      'rewrite' => array( 'slug' => 'person' )
+      'rewrite' => array( 'slug' => 'countries' )
     )
   );
 
@@ -43,7 +43,7 @@ function create_post_type() {
     'films',
     array(
       'label' => __( 'Актеры' ),
-      'rewrite' => array( 'slug' => 'person' )
+      'rewrite' => array( 'slug' => 'acters' )
     )
   );
 }
